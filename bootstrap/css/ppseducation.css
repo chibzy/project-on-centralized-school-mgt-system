@@ -1,0 +1,633 @@
+/*CSS Document*/
+body{
+	//font-family:Cuprum, "Amatic SC", Economica, "Pathway Gothic One", Quattrocento, "Ropa Sans";
+	font-family:Quattrocento;
+	font-size:16px;
+	line-height:30px;
+}
+.modalBg{
+	background-color:#FBF7DC;
+}
+.homeItems{
+	background-color:#BAAA52;//#EFE4A3;
+	color:#fff;
+	font-size:14px;
+	padding:10px 10px 20px 10px;
+}
+.heading{
+	background-color:#EFE4A3;
+}
+.adminHeading{
+	background-color:#EFE4A3;
+}
+.hand{
+	cursor:pointer;
+}
+.inline{
+	display:inline;
+}
+.selected {
+	background-color:#EFE4A3;
+}
+.selectme{
+	border-bottom:#999 solid thin;
+}
+#suggestion ul{
+ 	list-style:none;
+	list-style-type:none;
+	font-size:12px;
+}
+#suggestion2 ul{
+	list-style:none;
+	list-style-type:none;
+	font-size:12px;
+}
+.bank-instruction{
+	border-bottom:#CCC thin solid;
+	margin-bottom:3px;
+}
+.bank-details{
+	padding-top:5px; padding-bottom:5px;
+	margin-bottom:3px;
+}
+.bank-img{
+	margin-right:5px;
+	float:left;
+	height:30px;
+}
+.bank-name{
+	line-height:5px;
+	font-weight:600;
+}
+.search-input{
+	position:relative;
+}
+.school-details{
+	float:left;
+}
+.school-details h2,h3,h4,h5{
+	margin-top:0px;
+	margin-bottom:0px;
+}
+.school-details h2{
+	font-family:candara;
+	color:#ED2E60;
+}
+.school-details h4{
+	font-family:broadway;
+	color:#FFF;
+}
+.school-details h3{
+	font-family:candara;
+	color:#ED2E60;
+}
+.school-details h5{
+	font-family:candara;
+	color:#ED2E60;
+}
+.clear{
+	clear:both;
+}
+.stat-font{
+	font-size:11px;
+}
+.inItem{
+	height:400px; 
+	overflow:scroll; 
+	padding:2px;
+	font-size:14px;
+}
+.sheetContent{
+	background-image:url(../../img/061710_SOTF_students.jpg);
+	background-position:left;
+	background-repeat:no-repeat;
+	
+}
+.sheetContent p{
+	height:200px;
+}
+.sdropdown{
+	padding:10px;
+	width:350px;
+}
+.sdropdown2{
+	padding:8px;
+	width:50px;
+}
+.Hbg{
+	background:#FFF;
+	padding-bottom:10px;
+}
+.sdropdown .inner{
+	float:left; border:#CCC thin solid; 
+	height:70px; 
+	width:70px; 
+	padding:2px; 
+	margin-right:10px;
+}
+.remove-underline:hover{
+	text-decoration:none;
+}
+.remove-underline{
+	color:#ED2E60;
+}
+
+.head{color:#33ff33;}
+.body{background:#CCC;}
+.titlebody{
+	background:#ED2E60;//#33ff99; 
+	//padding:0px 5px 0px 5px;
+	color:#FFF;
+	text-transform:uppercase;
+	font-weight:600;
+}
+.titletxt{color:#3333ff; font-weight:600; font-size:18px;}
+.sidebar{background:#3399ff; height:550px; text-align:center;}
+.sidebartxt{color:#F09;//#33ffff;}
+.sidebar  p{padding-bottom:10px;}
+.bodytitle{color:#000000; font-weight:600; font-size:24px;}
+.bodytxt{color:#3399ff;}
+/*
+.Q_img_for_test{
+	width:250px;
+	border:#CCC solid thin;
+}
+.Q_option_img_for_test{
+	list-style:none; 
+	width:150px; 
+	height:200px; 
+	background-color:#FFF; 
+}
+.Q_option_img_for_test img{
+	width:150px; 
+	height:200px;
+}*/
+.img-polaroid{
+	width:140px;
+	height:180px;
+	padding:8px;
+}
+.img-polaroid a{
+	color:#ED2E60;
+	font-size: 16px;
+	font-weight:600;
+}
+.img-polaroid .cap{
+	text-align:center;
+	text-transform: capitalize;
+	line-height:normal;
+}
+.img-polaroid a:hover{
+	text-decoration:none;
+}
+.margin{
+	margin:5px;
+}
+.stat-background{
+	background-color:#ED2E60;
+	text-align:left;
+	color:#FFF;
+	font-family:forte;
+	font:16px;
+}
+.adsTitle{
+	font:Tahoma;
+	font-stretch:expanded;
+	font-variant:small-caps;
+}
+.stat-background .title{
+	padding-left:5px;
+	padding-right:5px;
+}
+.bg{
+	background-color:#FFF;
+	padding:0px;
+}
+.searchbg{
+	//background-color:#000000;//#ED2E60;
+	//padding:5px;
+	font-size:12px;
+	//border:#CCC;
+}
+.circle-highlight{
+	padding:10px;
+	color:#FFF;
+	font-weight:600;
+	background-image:url(../../img/icons/highlight.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	height:50px;
+	width:50px;
+	//float:left;
+	
+}
+.no_of_school{
+	margin-top:10px;
+	display:block;
+	padding:2px 2px 10px;
+	border-bottom:#ED2E60 thin solid;
+	width:400px;
+}
+.menu_content{
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:14px;
+}
+.writings{
+	display:block;
+	text-align:left;
+	line-height:20px;
+	width:250px;
+	vertical-align: middle;
+	float:left;
+	text-transform:uppercase;
+	font-size:14px;
+}
+.no_of_school-cover{
+	height:50px; 
+	margin-right:5px; 
+	vertical-align:middle; 
+	float:left;
+}
+.subheading{
+	font-size:14px;
+	font-weight:600;
+	color:#ED2E60;
+} 
+.v-align{
+	vertical-align:middle;
+}
+.h-line{
+	border-bottom:#F00 thin dashed;
+	margin-bottom:10px;
+	padding-bottom:10px;
+	//font-family:Candara;
+	//font-stretch:extra-expanded;
+	//color:#EFE4A3;
+}
+.leftside-h-line{
+	border-bottom:#F00 thin dashed;
+	margin-bottom:30px;
+	padding-bottom:10px;
+	//font-family:Candara;
+	//font-stretch:extra-expanded;
+	//color:#EFE4A3;
+}
+.padding{
+	padding:5px;	
+}
+.font{
+	font-size:12px;
+	line-height:20px;
+}
+.commentor{
+	margin-top:10px;
+	font-size:16px;
+	font-weight:600;
+	text-align:right;
+}
+.commentor p{
+	//font-size:12px;
+	font-style:italic;
+	color:#666;
+}
+.item2 img{
+	margin-bottom:10px;
+	width:150px;
+}
+.classListImg{
+	background-image:url(../../img/black-student.jpg);
+	height:200px;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+.classListImg img{
+	width:100px;
+	float:right;
+	margin-right:30px;
+}
+.classListImg p{
+	height:130px;
+}
+.help{
+	
+}
+.help li{
+	line-height:25px;
+}
+.Qset{
+	padding:5px; 
+	background-color:#FFF;
+	margin-bottom:10px;
+}
+.QsetQuestion{
+	font-family:Cuprum; 
+	margin-bottom:15px; 
+	cursor:pointer; 
+	font-weight:600;
+}
+.QsetAnswer{
+	font-size:16px; 
+	line-height:20px; 
+	display:none;
+}
+.QsetAnswer li{
+	line-height:25px;
+}
+.aboutteam li{
+	list-style:none;
+}
+.staffset{
+	margin:30px 0 30px; 
+	padding: 20px 0 10px; 
+	border-top:thin solid #F00;
+	clear:both;
+}
+.imageHolder{
+	width:100px; 
+	float:left; 
+	margin-right:20px;
+}
+.staffname{
+	font-family:Cuprum; 
+	font-size:16px; 
+	text-align:center;
+}
+.staffQ{
+	font-size:12px; 
+	color:#F00;
+}
+.openQuote{
+	float:left;
+}
+.closeQuote{
+	float:right;
+}
+.staffcomment{
+	display:block; 
+	width:400px; 
+	float:left; 
+	font-family:Cuprum; 
+	color:#666;
+}
+.font2{
+	font-size:10px;
+}
+.instruction-box{
+	//font-family:candara;
+	font-size:12px;
+	color:#666;#ED2E60;
+	text-align:left;
+	margin-bottom:20px;
+	//background-color:#FBF7DC;
+	padding:7px;
+	line-height:20px;
+	padding-left:30px;
+	background-image:url(../../img/icons/instructionpad.png);
+	background-position:left;
+	background-repeat:repeat-y;
+	border-bottom:thin #ED2E60 solid;
+}
+.img-position{
+	margin-right:10px;
+}
+.school-img-position{
+	margin-right:10px;
+}
+.border{
+	border:1.5px solid #EFE4A3;
+	padding:10px;
+	//font-size:12px;
+	background:#FBF7DC;
+	margin-bottom:5px;
+}
+.iconIntro{
+	font-size:12px; 
+	line-height:15px;
+}
+.introIcon img{
+	float:left;
+	margin-right:5px;
+}
+.social-background{
+	background-color:#000; 
+	color:#FFF;
+	padding:10px;
+}
+.social-background-bottom{
+	background-color:#000; 
+	color:#FFF;
+}
+li a{
+	color:#FBF7DC;
+}
+.base-background{
+	background-color:#999;
+	line-height:normal;
+	
+}
+.carousol
+{
+	background-color: #EFEFEF;
+	padding: 5px;
+}
+.sideNav
+{
+	background-color: #EFEFEF;
+	/*[empty]color:;*/
+	border: 1px solid #D4D4D4;
+	font-family: Tahoma;
+	/*+border-radius:12px;*/
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	-khtml-border-radius: 12px;
+	border-radius: 12px 12px 12px 12px;
+	padding-bottom: 20px;
+}
+.sideNav A
+{
+	font-size: 12px;
+	text-decoration: none;
+	/*[empty]color:;*/
+	border-bottom: thin solid #0093DD;
+	-webkit-box-shadow: inherit #6CC3FD;
+	/*+placement:shift 0px 0px;*/
+	position: relative;
+	left: 0px;
+	top: 0px;
+}
+.sideNav A:hover
+{
+}
+.body-instruction-box{
+	color:#666;
+	text-align:left;
+	margin-top:20px;
+	margin-bottom:30px;
+	padding:7px;
+	padding-left:30px;
+	background-image:url(../../img/icons/instructionpad.png);
+	background-position:left;
+	background-repeat:repeat-y;
+}
+.home-p{
+	text-align:left;
+	color:#666;
+	margin:10px 0 10px;
+	font-size:14px;
+}
+.statementBlock img{
+	width:100px;
+	vertical-align:baseline;
+	padding:0 0 5px;
+}
+.statementBlock ol li{
+	text-align:left;
+}
+.statementBlock{
+	font-family:Cuprum;
+	margin:15px;
+	text-align:center;
+}
+.statementBlock h3{
+	color:#ED2E60;	
+	margin-bottom:10px;
+	line-height:25px;
+}
+.statementBlock ul{
+	list-style:outside circle;
+}
+.statementBlock ul li{
+	line-height:30px;
+	text-align:left;
+}
+.homeItems hr{
+	border-color:#ed2e60;
+}
+.highlight{
+	background-color:#000; 
+	padding:5px 5px 20px 5px; 
+	color:white; 
+	margin:10px 0 10px; 
+	text-align:center; 
+	font-size:large;
+}
+.sideNav .head
+{
+	background-color: #0093DD;
+	color: #E7F5FC;
+	font-size: inherit;
+	font-weight: bold;
+	padding: 5px 10px;
+	font-family: Georgia;
+	margin-bottom: 5px;
+	/*+border-radius:12px 12px 0px 0px;*/
+	-moz-border-radius: 12px 12px 0px 0px;
+	-webkit-border-radius: 12px 12px 0px 0px;
+	-khtml-border-radius: 12px 12px 0px 0px;
+	border-radius: 12px 12px 0px 0px;
+}
+.searchform{
+	vertical-align:middle;
+	height:100px;
+	font-size:14px;
+}
+.verticalize{
+	vertical-align:middle;
+}
+.leftbar{
+	margin-bottom:30px;
+}
+.leftbar a:hover{
+	text-decoration:none;
+}
+a .list
+{
+	height: 25px;
+	padding: 5px;
+	border-top: 1px solid #D4D4D4;
+	margin:5px;
+	//font-family:candara;
+}
+.list:hover
+{
+	background-color:#ED2E60;
+	color: #FFFFFF;
+	font-weight:600;
+	//text-decoration:none;
+}
+.right-sidebar
+{
+	border: 1px solid #D4D4D4;
+	padding: 5px;
+	margin: 0px 0px 10px;
+	/*+box-shadow:0 0 1px 0 #628006;*/
+	-moz-box-shadow: 0 0 1px 0 #628006;
+	-webkit-box-shadow: 0 0 1px 0 #628006;
+	-o-box-shadow: 0 0 1px 0 #628006;
+	box-shadow: 0 0 1px 0 #628006;
+}
+.baselinks
+{
+	padding: 5px;
+	margin-top: 10px;
+	color: #FFFFFF;
+	/*+text-shadow:0px 0px;*/
+	-moz-text-shadow: 0px 0px;
+	-webkit-text-shadow: 0px 0px;
+	-o-text-shadow: 0px 0px;
+	text-shadow: 0px 0px;
+	font-family: Candara;
+}
+.baselinks ul li{
+	list-style:none;
+}
+.underline
+{
+	border-bottom: 1px solid #D4D4D4;
+	color: #FFFFFF;
+	margin: 10px 0 5px;
+}
+.baselinks A:hover
+{
+	text-decoration: none;
+}
+.base-margin
+{
+	margin-bottom: 20px;
+}
+#test {
+	
+}
+#timer{
+	font-size:24px; 
+	float:right; 
+	padding:0px 10px 10px 10px;;
+	//border-bottom:#333 outset medium;
+}
+.question{
+	font-size:18px;
+	margin-bottom:20px;
+}
+.questionno{
+	font-size:18px;
+	margin-bottom:10px;
+	font-style:italic;
+}
+.option li{
+	font-size:18px;
+	margin-bottom:10px;	
+}
+.rsdisplay{ 
+	padding:25px; 
+	font-size:24px;
+	font-family:Tahoma; 
+	font-size:large; 
+	padding:20px; 
+	border:#C90 thin solid;
+	text-align:center;
+}
+.midBg{
+	 background-color:#FFF; 
+	 height:115px;
+}
